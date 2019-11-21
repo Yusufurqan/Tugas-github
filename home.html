@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>WEB</title>
+  <script defer src="http://use.fontawesome.com/releases/v5.0.7/js/all.js">
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    function OpenSlideMenu() {
+      document.getElementById('menu').style.width = '250px';
+      document.getElementById('leftbar').style.marginLeft = '250px';
+    }
+
+    function tutup() {
+      document.getElementById('menu').style.width = '0px';
+      document.getElementById('leftbar').style.marginLeft = '0px';
+    }
+  </script>
+</head>
+
+<body>
+  <div class="" id="wrapper">
+    <div class="" id="header">
+      <div id="leftbar">
+        <span>
+          <a href="#" onclick="OpenSlideMenu()">
+            <i class="fas fa-bars"></i>
+          </a>
+        </span>
+
+        <div id="menu" class="nav">
+          <a href="#" class="close" onclick="tutup()">
+            <i class="fas fa-times"></i>
+          </a>
+          <a href="#">BERITA1</a>
+          <a href="#">BERITA2</a>
+          <a href="#">BERITA3</a>
+
+        </div>
+      </div>
+      <div id="topnav">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">PROFILE</a></li>
+          <li><a href="#">GALLERY</a></li>
+        </ul>
+        <form class="" action="index.html" method="post">
+          <input type="search" name="search" value="">
+        </form>
+      </div>
+
+    </div>
+    <div id="daftar_berita">
+      <section class="berita">
+        <br><br><br><br><br>
+        <b>BERITA 1</b>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <img src="img/gambar.jpg" alt="">
+        <a href="#">baca selengkapnya............</a>
+      </section>
+      <section id="Quote">
+        <center>
+          <b>"I think everybody's nut"</b>
+          <h4>-- Jhonny Deep --</h4>
+        </center>
+      </section>
+      <section class="berita">
+        <b>BERITA 2</b>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <img src="img/gambar2.jpg" alt="">
+        <a href="#">baca selengkapnya............</a>
+      </section>
+      <section id="Quote">
+        <center>
+          <b>"By giving people the power to share, we are making the world more transparent"</b>
+          <h4>-- Mark Zuckerberg --</h4>
+        </center>
+      </section>
+    </div>
+    <div class="footer">
+      <center>
+        <table>
+          <tr>
+            <th>address</th>
+            <th>contact</th>
+            <th>link</th>
+          </tr>
+          <tr>
+            <th> </th>
+          </tr>
+          <tr>
+            <th>green lake city ruko Crown Blok C no 32</th>
+            <th>Email : admin.Edu-Tech@edutama.id</th>
+            <th>www.Edu-Tech.id</th>
+          </tr>
+        </table>
+      </center>
+    </div>
+  </div>
+</body>
+
+</html>
